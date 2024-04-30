@@ -27,6 +27,34 @@ class Task4 extends StatelessWidget {
               radius: 50,
               backgroundImage: AssetImage('assets/profile jpg 367KBs jpg.jpg'),
             ),
+            // ClipOval(
+            //   child: Image.asset(
+            //     'assets/profile jpg 367KBs jpg.jpg',
+            //     width: 100,
+            //     height: 100,
+            //     fit: BoxFit.cover,
+            //   ),
+            // ),
+            // Container(
+            //   height: 100,
+            //   width: 100,
+            //   decoration: const BoxDecoration(
+            //     shape: BoxShape.circle,
+            //     image: DecorationImage(
+            //       fit: BoxFit.cover,
+            //       image: AssetImage('assets/profile jpg 367KBs jpg.jpg'),
+            //     ),
+            //   ),
+            // ),
+            // ClipRRect(
+            //   borderRadius: BorderRadius.circular(300),
+            //   child: Image(
+            //     height: 100,
+            //     width: 100,
+            //     fit: BoxFit.cover,
+            //     image: AssetImage('assets/profile jpg 367KBs jpg.jpg'),
+            //   ),
+            // ),
             const SizedBox(
               height: 10,
             ),
@@ -40,6 +68,10 @@ class Task4 extends StatelessWidget {
             ),
             const SizedBox(
               height: 10,
+              width: 200,
+              child: Divider(
+                color: Colors.tealAccent,
+              ),
             ),
             Container(
               margin: const EdgeInsets.all(5),

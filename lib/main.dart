@@ -71,6 +71,7 @@ class Task4 extends StatelessWidget {
               width: 200,
               child: Divider(
                 color: Colors.tealAccent,
+                thickness: .2,
               ),
             ),
             Container(

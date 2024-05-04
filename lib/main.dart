@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Task4(),
-  ));
+  runApp(
+    const MaterialApp(
+      home: Task4(),
+    ),
+  );
 }
 
 class Task4 extends StatelessWidget {
@@ -24,7 +26,7 @@ class Task4 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const CircleAvatar(
-              radius: 50,
+              radius: 80,
               backgroundImage: AssetImage('assets/profile jpg 367KBs jpg.jpg'),
             ),
             // ClipOval(
@@ -60,23 +62,23 @@ class Task4 extends StatelessWidget {
             ),
             const Text(
               'Faizan Ahmad',
-              style: TextStyle(color: Colors.white, fontSize: 20),
+              style: TextStyle(color: Colors.white, fontSize: 30),
             ),
             const Text(
               'FLUTTER DEVELOPER',
-              style: TextStyle(color: Colors.tealAccent, fontSize: 15),
+              style: TextStyle(color: Colors.tealAccent, fontSize: 25),
             ),
             const SizedBox(
-              height: 10,
-              width: 200,
+              height: 20,
+              width: 300,
               child: Divider(
                 color: Colors.tealAccent,
-                thickness: .2,
+                thickness: .7,
               ),
             ),
             Container(
               margin: const EdgeInsets.all(5),
-              padding: const EdgeInsets.all(8),
+              padding: const EdgeInsets.all(15),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(3),
@@ -86,20 +88,21 @@ class Task4 extends StatelessWidget {
                   Icon(
                     Icons.phone,
                     color: Colors.teal,
+                    size: 30,
                   ),
                   SizedBox(
                     width: 20,
                   ),
                   Text(
                     '+92313 9309850',
-                    style: TextStyle(color: Colors.teal),
+                    style: TextStyle(color: Colors.teal, fontSize: 18),
                   ),
                 ],
               ),
             ),
             Container(
               margin: const EdgeInsets.all(5),
-              padding: const EdgeInsets.all(8),
+              padding: const EdgeInsets.all(15),
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(3),
@@ -109,13 +112,17 @@ class Task4 extends StatelessWidget {
                   Icon(
                     Icons.mail,
                     color: Colors.teal,
+                    size: 30,
                   ),
                   SizedBox(
                     width: 20,
                   ),
                   Text(
                     'faizanahmad2582001@gmail.com',
-                    style: TextStyle(color: Colors.teal),
+                    style: TextStyle(
+                      color: Colors.teal,
+                      fontSize: 18,
+                    ),
                   ),
                 ],
               ),
